@@ -6,6 +6,9 @@ Given an image and a number `n`, the program determines the `n` most important c
 normalizes each pixel color value to the closest "important color". This reduces the image to `n` 
 different colors while also keeping the highest possible fidelity under this constraint.
 
+![](src/main/resources/lighthouse.jpg)
+![](src/main/resources/lighthouse.jpg.png)
+
 ## How it Works
 
 This program uses two main algorithms to determine the `n` most important colors:
